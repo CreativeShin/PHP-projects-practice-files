@@ -1,0 +1,1 @@
+require(): If the file is not found by require(), it will cause a fatal error and halt the execution of the script. include(): If the file is not found by include(), a warning will be issued, but execution will continue.
