@@ -1,5 +1,5 @@
-##PHP
+## PHP
 **Basics**
-*date function 
-*timestamp
-*include, require & require_once
+* date function 
+* timestamp
+* include, require & require_once
