@@ -14,7 +14,7 @@
       // check email
       if(filter_var($email, FILTER_VALIDATE_EMAIL)){
           // passed
-          $toEmail = 'support@traversymedia.com';
+          $toEmail = 'krowtriad@yandex.com';
   				$subject = 'Contact Request From '.$name;
   				$body = '<h2>Contact Request</h2>
   					<h4>Name</h4><p>'.$name.'</p>
