@@ -2,11 +2,13 @@
   require 'config/config.php';
   require 'config/db.php';
   // query
-  $query = 'SELECT * FROM posts';
+  $query = 'SELECT * FROM posts ORDER BY created_at DESC';
   // result
   $result = mysqli_query($conn, $query);
   // data
   $posts = mysqli_fetch_all($result, MYSQLI_ASSOC);
+  mysqli_free_result($result);
+  mysqli_close($conn);
 ?>
 <?php include 'inc/header.php' ?>
     <div class="container">
